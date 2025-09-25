@@ -4,46 +4,46 @@ title: "[Ошибка]: "
 labels: ["bug"]
 body:
   - type: textarea
-    id: 1
+    id: Description
     attributes:
       label: Описание
     validations:
       required: true
       
   - type: textarea
-    id: 2
+    id: Playback_steps
     attributes:
       label: Шаги воспроизведения
     validations:
       required: true
 
   - type: textarea
-    id: 3
+    id: Expected_result
     attributes:
       label: Ожидаемый результат
     validations:
       required: true
 
   - type: textarea
-    id: 4
+    id: Actual_result
     attributes:
       label: Фактический результат
     validations:
       required: true
 
   - type: textarea
-    id: 5
+    id: Additional_materials
     attributes:
       label: Скриншоты / Доп. материалы
       
   - type: textarea
-    id: 5
+    id: Execution_environment
     attributes:
       label: Среда выполнения
       placeholder: Операционная система, IDE и прочие программные особенности необходимые для нахождения дефекта
 
   - type: dropdown
-    id: 6
+    id: Priority
     attributes:
       label: Приоритет
       options:
@@ -54,7 +54,7 @@ body:
       required: true
 
   - type: dropdown
-    id: 7
+    id: Severity
     attributes:
       label: Серьёзность
       options:
