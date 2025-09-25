@@ -4,8 +4,8 @@ title: "[Ошибка]: "
 labels: ["bug"]
 body:
   - type: textarea
-    id: Title
+    id: Description
     attributes:
-      label: Заголовок
+      label: Описание
     validations:
       required: true
