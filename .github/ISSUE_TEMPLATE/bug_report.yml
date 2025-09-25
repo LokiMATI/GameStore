@@ -9,3 +9,24 @@ body:
       label: Описание
     validations:
       required: true
+      
+  - type: textarea
+    id: Playback_steps
+    attributes:
+      label: Шаги воспроизведения
+    validations:
+      required: true
+
+  - type: textarea
+    id: Expected_result
+    attributes:
+      label: Ожидаемый результат
+    validations:
+      required: true
+
+  - type: textarea
+    id: Actual_result
+    attributes:
+      label: Фактический результат
+    validations:
+      required: true
