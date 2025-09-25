@@ -30,3 +30,37 @@ body:
       label: Фактический результат
     validations:
       required: true
+
+  - type: textarea
+    id:  Additional_materials
+    attributes:
+      label: Скриншоты / Доп. материалы
+      
+  - type: textarea
+    id: Execution environment
+    attributes:
+      label: Среда выполнения
+      placeholder: Операционная система, IDE и прочие программные особенности необходимые для нахождения дефекта
+
+  - type: dropdown
+    id: Priority
+    attributes:
+      label: Приоритет
+      options:
+       - Высокий
+       - Средний
+       - Низкий
+    validations:
+      required: true
+
+  - type: dropdown
+    id: Severity
+    attributes:
+      label: Сер
+      options:
+       - Критическая
+       - Высокая
+       - Средняя
+       - Низкая
+    validations:
+      required: true
